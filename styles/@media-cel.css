@@ -1,0 +1,77 @@
+@media screen and (max-width: 500px) {
+  main{
+    background-image: url(../assets/bg-main-mobile.png);
+    background-position: top right;
+  }
+
+  
+  #hdr-mn{
+    padding: 64px 20px;
+    background-image: none;
+    gap: 64px;
+    
+    nav{
+      width: 335px;
+    }
+
+    #text-mn{
+      h1{
+        width: 335px;
+        font-size: 40px;
+      }
+      
+      p{
+        width: 335px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  #content{
+    padding: 0;
+  }
+
+  #main-content{
+    width: 100%;
+    border-radius: 0;
+    background-position: top center;
+    transform: translateY(18%);
+  }
+
+  #frame-280{
+    width: 100%;
+    height: 1115px;
+    flex-direction: column;
+
+    #ilustration{
+      display: flex;
+      justify-content: center;
+      margin: 0 0 64px ;
+
+      img{
+        width: 209px;
+        height: 430px;
+      }
+    }
+  }
+
+  #price{
+    position: static;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    padding: 48px 20px;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+
+    img{
+      width: 143px;
+      height: 32px;
+    }
+  }
+}

@@ -2,3 +2,5 @@
 @import url(hdr-mn.css);
 @import url(content.css);
 @import url(footer.css);
+@import url(@media-tablet.css);
+@import url(@media-cel.css);
