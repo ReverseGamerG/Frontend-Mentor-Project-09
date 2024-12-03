@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--white);
+  font-family: var(--font-family);
+}
+
+main{
+  background-image: url(../assets/bg-main-desktop.png);
+  background-position: left;
+  background-size: cover;
+}
+
+:root{
+  /*Colors*/
+
+  --cyan: #66E2DC;
+  --orange: #FA7453;
+  --yellow: #FFB964;
+  --white : #FCFAF9;
+  --slate: #191826;
+  
+  /*Typography*/
+
+  --font-family: "IBM Plex Sans", sans-serif;
+  --text-p1: 700 88px/100% var(--font-family);
+  --text-p2: 700 64px/100% var(--font-family);
+  --text-p3: 700 40px/110% var(--font-family);
+  --text-p4: 400 20px/150% var(--font-family);
+  --text-p5: 400 16px/150% var(--font-family);
+  --text-p5-bold: 700 16px/150% var(--font-family);
+  --text-p6: 700 18px/180% var(--font-family);
+}

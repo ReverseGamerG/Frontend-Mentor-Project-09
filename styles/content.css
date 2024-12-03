@@ -1,0 +1,136 @@
+#content{
+  padding: 79px 160px;
+}
+
+#main-content{
+  background-color: var(--slate);
+  width: 1120px;
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+  transform: translateY(17.5%);
+  border-radius: 12px;
+  background-image: url(../assets/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#frame-280{
+  display: flex;
+  gap: 32px;
+  width: 1056px;
+  height: 842px;
+
+  #ilustration{
+    margin: 0 100px;
+  
+    img{
+      width: 312px;
+      height: 642px;
+    }
+  } 
+}
+
+#price{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--orange);
+  width: 532px;
+  padding: 56px;
+  gap: 48px;
+  margin-top: 200px;
+  border-radius: 16px;
+}
+
+#texts{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#description{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  h3{
+    font: var(--text-p3);
+  }
+
+  p{
+    font: var(--text-p4);
+  }
+}
+
+#plan{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  h1{
+    font: var(--text-p2);
+  }
+  
+  p{
+    font: var(--text-p4);
+  }
+}
+
+#downloads{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 16px 0;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 12px;
+    
+    img, #ios-icon{
+      width: 17px;
+      height: 20px;
+      transition: background .01s;
+    }
+    
+    #ios-icon{
+      background-image: url(../assets/icon-apple.svg);
+    }
+    
+    p{
+      padding-top: 3.5px;
+      font: var(--text-p6);
+    }
+  }
+}
+
+#downloads a:first-child{
+  background-color: var(--slate);
+  color: var(--white);
+  transition: background .5s;
+}
+
+#downloads a:last-child{
+  background-color: var(--white);
+  color: var(--slate);
+  transition: all .5s;
+}
+
+#downloads a:first-child:hover{
+  background-color: var(--cyan);
+  color: var(--slate);
+
+  #ios-icon{
+    background-image: url(../assets/apple-black.svg);
+  }
+}
+
+
+#downloads a:last-child:hover{
+  background-color: var(--yellow);
+  color: var(--slate);
+}

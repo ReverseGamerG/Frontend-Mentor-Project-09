@@ -1,0 +1,31 @@
+#hdr-mn{
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+  background-image: url(../assets/bg-pattern-1.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 64px 160px;
+
+  nav{
+    width: 144px;
+    height: 32px;
+  }
+
+  #text-mn{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    h1{
+      width: 928px;
+      font: var(--text-p1);
+      letter-spacing: -1px;
+    }
+
+    p{
+      width: 736px;
+      font: var(--text-p4);
+    }
+  }
+}
